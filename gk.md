@@ -1,7 +1,7 @@
-# Phần 1
+# Phần 1 Phần lý thuyết
 <details>
-  <summary><code>1. Trình bày mối quan hệ giữa cấu trúc dữ liệu và giải thuật, cho ví dụ minh
-hoạ. </code></summary>
+  <summary><code><img width="1158" height="101" alt="image" src="https://github.com/user-attachments/assets/2b339f56-52d6-4559-8a92-93231b1255f3" />
+</code></summary>
 
 - Để giải quyết một bài toán trên máy tính điện tử ta phải thực hiện một số bước, trong đó có một
 bước quan trọng là tìm ra giải thuật.
@@ -37,8 +37,13 @@ gọi là Tìm kiếm nhị phân). Tìm kiếm nhị phân có thời gian tìm
 được với dữ liệu chưa được sắp xếp.  
 </details>
 
+
+
+
 <details>
-  <summary><code>2. Để giải quyết một bài toán trên máy tính điện tử ta phải thực hiện một số bước, trong đó có một
+  <summary><code><img width="1160" height="103" alt="image" src="https://github.com/user-attachments/assets/5a052e04-7c80-40aa-9d23-5524c61bfbe4" />
+</code></summary>
+- Để giải quyết một bài toán trên máy tính điện tử ta phải thực hiện một số bước, trong đó có một
 bước quan trọng là tìm ra giải thuật.
 - Giải thuật (còn gọi là thuật toán) là một hệ thống chặt chẽ và rõ ràng các quy tắc nhằm xác định
 một dãy các thao tác trên những đối tượng, sao cho sau một số bước hữu hạn thực hiện các thao
@@ -69,7 +74,7 @@ O(n), với n là số trường đại học (n là độ lớn dữ liệu và
 áp dụng một giải thuật tìm kiếm khác tốt hơn, tương tự như ta vẫn thường làm khi tra từ điển (còn
 gọi là Tìm kiếm nhị phân). Tìm kiếm nhị phân có thời gian tìm kiếm được đánh giá là O(Log2n).
 - Rõ ràng Tìm kiếm nhị phân nhanh hơn rất nhiều Tìm kiếm tuần tự, nhưng không thể áp dụng
-được với dữ liệu chưa được sắp xếp.</code></summary>
+được với dữ liệu chưa được sắp xếp.
 
 - Đối với các bài toán phi số, đi đôi với các cấu trúc dữ liệu mới cũng xuất hiện các phép toán mới
 tác động trên các cấu trúc ấy. Thông thường có các phép toán như: Phép tạo lập hoặc huỷ bỏ một
@@ -83,12 +88,69 @@ liệu nào. Cho nên người ta thường quan niệm: nói tới cấu trúc 
 toán tác động trên các cấu trúc ấy.
 </details>
 
-# Phần 2 
-<details>
-  <summary><code>1 Cho cây nhị phân, viết thứ tự các nút được thăm theo các thứ tự: trước, giữa,
-sau. Ví dụ: 
-  <img width="1000" height="455" alt="image" src="https://github.com/user-attachments/assets/95e1a1d5-0e13-4225-bb8e-9d2272f453fd" /></code></summary>
 
+
+<details>
+  <summary><code><img width="1166" height="102" alt="image" src="https://github.com/user-attachments/assets/6c6757b2-1995-448b-b6a0-fa5336068506" />
+</code></summary>
+</details>
+
+
+<details>
+  <summary><code><img width="1169" height="106" alt="image" src="https://github.com/user-attachments/assets/58536883-de2d-4856-95fe-734240e11cc1" />
+</code></summary>
+
+</details>
+
+
+
+<details>
+  <summary><code><img width="1118" height="51" alt="image" src="https://github.com/user-attachments/assets/4b8d08d9-cb3d-49ed-9e35-eba856ac16de" />
+</code></summary>
+</details>
+
+
+<details>
+  <summary><code><img width="1178" height="146" alt="image" src="https://github.com/user-attachments/assets/0a39c54b-254f-4c7a-814f-37b090cb16bc" />
+</code></sumamry>
+</details>
+
+
+<details>
+  <summary><code><img width="1186" height="114" alt="image" src="https://github.com/user-attachments/assets/d6e00437-8dbf-49aa-aec1-7208c9fd2d50" />
+</code></summary>
+</details>
+
+
+
+<details>
+  <summary><code><img width="1199" height="160" alt="image" src="https://github.com/user-attachments/assets/6ebbaaee-7ef2-40be-ad8c-42e8cb83ac28" />
+</code></summary>
+</details>
+
+
+
+<details>
+  <summary><code><img width="1077" height="73" alt="image" src="https://github.com/user-attachments/assets/37b9e308-def8-49aa-9c22-577523935668" />
+</code></summary>
+</details>
+
+
+<details>
+  <summary><code><img width="1141" height="76" alt="image" src="https://github.com/user-attachments/assets/1d257353-9cd0-4959-a89c-fddde5ebb4ae" />
+</code></summary>
+</details>
+
+
+---
+<br>
+
+# Phần 2 Phần bài tập
+<details>
+  <summary><code><img width="1000" height="455" alt="image" src="https://github.com/user-attachments/assets/95e1a1d5-0e13-4225-bb8e-9d2272f453fd" /></code></summary></code></summary>
+
+  <br>
+  
   Trước: A C G F B E I D H
  
   Giữa: G C F A I E B D H
@@ -97,18 +159,16 @@ sau. Ví dụ:
 </details>
 
 <details>
-  <summary><code>2. Biết thứ tự duyệt cây nhị phân theo thứ tự trước và giữa, hãy dựng lại cây
-nhị phân. Ví dụ thứ tự trước là: A B D E H C F I G, thứ tự giữa là: D B H E A F I C
-G.</code></summary>
+  <summary><code><img width="1209" height="147" alt="image" src="https://github.com/user-attachments/assets/7a9813d4-d304-4bfe-9f38-0e8ea785433a" />
+</code></summary>
 
- <img width="1490" height="877" alt="image" src="https://github.com/user-attachments/assets/2d0199f3-03bc-4cfe-99c9-d95d77404040" />
-
+   <img width="1490" height="877" alt="image" src="https://github.com/user-attachments/assets/2d0199f3-03bc-4cfe-99c9-d95d77404040" />
 
 </details>
 
 <details>
-  <summary><code>3.  Biết thứ tự duyệt cây nhị phân theo thứ tự giữa và sau, hãy dựng lại cây nhị
-phân. Ví dụ thứ tự giữa là: D H B E A F C I G, thứ tự sau là: H D E B F I G C A. </code></summary>
+  <summary><code><img width="1190" height="111" alt="image" src="https://github.com/user-attachments/assets/3155b537-50c2-4f0e-8186-a5c017e526b6" />
+</code></summary>
 
   <img width="1302" height="817" alt="image" src="https://github.com/user-attachments/assets/75f852b9-15f0-4382-9370-2b22bb0c260a" />
 
@@ -117,62 +177,105 @@ phân. Ví dụ thứ tự giữa là: D H B E A F C I G, thứ tự sau là: H 
 
 <details>
   <summary><code><img width="532" height="193" alt="image" src="https://github.com/user-attachments/assets/103159c6-3957-4104-a189-f89185bbb962" />
-  </code></summary>
+</code></summary>
 
-  <table border="1" style="border-collapse: collapse; text-align: center; width: 100%;">
-  <!-- Hàng tiêu đề 1 -->
-  <tr>
-    <th rowspan="2" style="background: linear-gradient(to top right, transparent calc(50% - 1px), #000, transparent calc(50% + 1px)); position: relative; width: 80px; height: 50px; padding: 0;">
-      <span style="position: absolute; top: 2px; right: 8px; font-weight: normal;">V</span>
-      <span style="position: absolute; bottom: 2px; left: 8px; font-weight: normal;">k</span>
-    </th>
-    <th colspan="2">1</th>
-    <th colspan="2">2</th>
-    <th colspan="2">3</th>
-    <th colspan="2">4</th>
-    <th colspan="2">5</th>
-    <th colspan="2">6</th>
-    <th colspan="2">7</th>
-  </tr>
-  
-  <!-- Hàng dữ liệu 1 (k = 1) -->
-  <tr>
-    <!-- Hàng trống tương ứng với ô rowspan bên trái -->
-  </tr>
-  <tr>
-    <td><b>1</b></td>
-    <td>0</td><td>0</td>
-    <td>6</td><td>1</td>
-    <td>6</td><td>1</td>
-    <td>12</td><td>2</td>
-    <td>12</td><td>2</td>
-    <td>18</td><td>3</td>
-    <td>18</td><td>3</td>
-  </tr>
-  
-  <!-- Hàng dữ liệu 2 (k = 2) -->
-  <tr>
-    <td><b>2</b></td>
-    <td>0</td><td>0</td>
-    <td>6</td><td>0</td>
-    <td>10</td><td>1</td>
-    <td>12</td><td>0</td>
-    <td>16</td><td>1</td>
-    <td>20</td><td>2</td>
-    <td>22</td><td>1</td>
-  </tr>
-  
-  <!-- Hàng dữ liệu 3 (k = 3) -->
-  <tr>
-    <td><b>3</b></td>
-    <td>1</td><td>1</td>
-    <td>6</td><td>0</td>
-    <td>10</td><td>0</td>
-    <td>12</td><td>0</td>
-    <td>16</td><td>0</td>
-    <td>20</td><td>0</td>
-    <td>22</td><td>0</td>
-  </tr>
-</table>
+
 </details>
 
+
+<details>
+  <summary><code><img width="1201" height="451" alt="image" src="https://github.com/user-attachments/assets/d7194505-0b01-4529-a65f-16f359127d55" />
+</code></summary>
+  
+</details>
+
+
+---
+
+<br>
+
+
+# Phần 3 Phần giải thuật
+
+<details>
+  <summary><code><img width="1152" height="299" alt="image" src="https://github.com/user-attachments/assets/fd34e9c3-860d-4e03-8f59-2902f5689764" />
+</code></summary>
+</details>
+
+
+
+<details>
+  <summary><code><img width="1182" height="295" alt="image" src="https://github.com/user-attachments/assets/42ae1128-319a-4817-bef2-30b51d48d027" />
+</code></summary>
+</details>
+
+
+
+<details>
+  <summary><code><img width="1153" height="254" alt="image" src="https://github.com/user-attachments/assets/8cece176-415d-4bcb-97c6-92aa36ea439a" />
+</code></summary>
+</details>
+
+
+
+<details>
+  <summary><code><img width="1170" height="212" alt="image" src="https://github.com/user-attachments/assets/68a21569-07b1-4858-8d4c-e2aad08163a3" />
+</code></summary>
+</details>
+
+
+
+<details>
+  <summary><code></code><img width="1188" height="254" alt="image" src="https://github.com/user-attachments/assets/8ad569c1-f3e9-4ba2-bf17-20744edc8269" />
+</summary>
+</details>
+
+
+
+<details>
+  <summary><code></code><img width="1196" height="255" alt="image" src="https://github.com/user-attachments/assets/9870a90a-dea9-40c7-bfb9-7608380637c9" />
+</summary>
+</details>
+
+
+
+<details>
+  <summary><code><img width="1177" height="131" alt="image" src="https://github.com/user-attachments/assets/bc42b71a-92e4-4c1f-9a03-7690cdefa820" />
+</code></summary>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+<br>
+
+
+<details>
+  <summary><code></code></summary>
+</details>
+
+
+
+<details>
+  <summary><code></code></summary>
+</details>
+
+
+
+<details>
+  <summary><code></code></summary>
+</details>
