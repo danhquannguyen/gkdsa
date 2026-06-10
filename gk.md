@@ -179,6 +179,7 @@ toán tác động trên các cấu trúc ấy.
   <summary><code><img width="532" height="193" alt="image" src="https://github.com/user-attachments/assets/103159c6-3957-4104-a189-f89185bbb962" />
 </code></summary>
 
+  <img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/b337e282-91f0-438b-92d2-b56dd404a460" />
 
 </details>
 
@@ -186,7 +187,11 @@ toán tác động trên các cấu trúc ấy.
 <details>
   <summary><code><img width="1201" height="451" alt="image" src="https://github.com/user-attachments/assets/d7194505-0b01-4529-a65f-16f359127d55" />
 </code></summary>
-  
+
+  <img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/e328f927-a842-4f0a-b26d-11597c676a8a" />
+
+
+
 </details>
 
 
@@ -200,6 +205,29 @@ toán tác động trên các cấu trúc ấy.
 <details>
   <summary><code><img width="1152" height="299" alt="image" src="https://github.com/user-attachments/assets/fd34e9c3-860d-4e03-8f59-2902f5689764" />
 </code></summary>
+
+  ```c
+  DOUBLE_IN (Pdau, Pcuoi, Q, X){
+    P = malloc();
+    P->DATA = X;
+    P->P_R = P->P_L = NULL;
+    if (Pcuoi == NULL){
+      Pdau=Pcuoi=P;
+    }
+    else if (Q == Pdau){
+      P->P_R = Q;
+      Q->P_L = P;
+      Pdau = P;
+    }
+    else {
+      P->P_L = Q->P_L;
+      P->P_R = Q;
+      Q->P_L = P;
+      P->P_L->P_R = P;
+    }
+  }
+  ```
+
 </details>
 
 
